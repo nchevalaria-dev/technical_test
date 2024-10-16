@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - .:/var/www
+    ports:
+      -  ${FRONTEND_PORT:-8000}:8000

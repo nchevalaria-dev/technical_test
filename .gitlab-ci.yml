@@ -1,0 +1,17 @@
+image: php:7.4-alpine
+
+stages:
+  - test
+
+before_script:
+  - curl -sS https://getcomposer.org/installer | php
+  - cp .env.example .env
+  - php composer.phar install
+  - php artisan key:generate
+
+phpunit:
+  stage: test
+  script:
+    - vendor/bin/phpunit --testdox
+  except:
+    - master

@@ -1,0 +1,32 @@
+[
+    {
+        "repository": "linux",
+        "full_repository_name": "x1b2j_open_source\/linux",
+        "description": "",
+        "creator": "x1b2j_open_source"
+    },
+    {
+        "repository": "Caching Proxy Linux Deployments",
+        "full_repository_name": "irmandos\/caching-proxy-linux-deployments",
+        "description": "I will have my Raspberry Pi cache all my updates for Windows machines with the use of Squad over a single LAN interface and Linux updates by means of apt-cach",
+        "creator": "irmandos"
+    },
+    {
+        "repository": "Node Load Tweet",
+        "full_repository_name": "halusagn\/node-load-tweet",
+        "description": "A small node.js script which posts a linux server's load and uptime to your twitter timeline.",
+        "creator": "halusagn"
+    },
+    {
+        "repository": "Hamster",
+        "full_repository_name": "magraine\/hamster",
+        "description": "Plugin SPIP pour visualiser dans l'espace priv\u00e9 un export XML du logiciel Hamster pour Linux (compteur de temps)",
+        "creator": "magraine"
+    },
+    {
+        "repository": "qr-linux-kernel",
+        "full_repository_name": "teobaluta\/opw",
+        "description": "QR encoding for oops messages in the kernel",
+        "creator": "teobaluta"
+    }
+]
